@@ -1,0 +1,14 @@
+h1 {
+	color: red;
+	letter-spacing: 5pt;
+	text-transform: uppercase;
+	font-family: arial;
+	border: dotted green 2px;
+	background-color: yellow; 
+}
+p {
+	text-align: justify;
+}
+ul{
+	list-style-type: square;
+}

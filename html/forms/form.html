@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="../css/style.css" rel="stylesheet">
+<head>
+     <title>Forms</title>
+</head>
+<body>
+      <h1>Basic HTML Form</h1>
+	  <form action="" method="POST">
+	     <p><label for="username">Username:</label>
+		 <input type="text" name="username" size="12" maxlength="12">
+		 </p>
+		 <p><label for="password">Password:</label>
+		 <input type="password" name="password" size="12" maxlength="12">
+		 </p>
+		 <p>
+		  <label for="age">Age:</label>
+		  <input type="number" min="12" max="40">
+		  </p>
+		  <p>
+		  <label for="dob">DOB:</label>
+		  <input type="date" name="dob">
+		  </p>
+		  <p>
+		    <label for="email">Email:</label>
+			<input type="email" required>
+		  </p>
+		  <p>I do the following regularly:</p>
+		  <p>
+		     <label for="walking">Walking:</label>
+			 <input type="checkbox" name="excercise" value="walking" checked="checked">
+		  </p>
+		  <p>
+		    <label for="running">Running:</label>
+			<input type="checkbox" name="excercise" value="running">
+		  </p>
+		  <p>
+		    <label for="cycling">Cycling:</label>
+			<input type="checkbox" name="excercise" value="cycling">
+		  </p>
+		  <p>Gender:</p>
+		  <p>
+		     <label for="male">Male:</label>
+			 <input type="radio" name="gender" value="male">
+		  </p>
+		  <p>
+		     <label for="female">Female:</label>
+			 <input type="radio" name="gender" value="female">
+		  </p>
+		 <p><input type="submit" value="Submit"></p>
+	  </form>
+</body>
+</html>

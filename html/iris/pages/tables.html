@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="../css/style.css" rel="stylesheet">
+<head>
+     <title>Tables</title>
+</head>
+<body>
+      <h1>Table Structure</h1>
+	  <table>
+	  <caption>Stage Winners in the 1999 Tour de France</caption>
+	  <colgroup>
+	    <col span="1" id="stage">
+		<col span="1" id="distance">
+		<col span="1" id="winner">
+		<col span="1" id="leader">
+	  </colgroup>
+	      <thead>
+                 <tr>
+                      <th>Stage</th>
+					  <th>Distance</th>
+					  <th>Winner</th>
+					  <th>Overall Leader</th>
+                 </tr>				 
+		  </thead>
+		  <tfoot>
+		         <tr>
+				     <th>Total Distance</th>
+					 <td>1264km</td>
+				 </tr>
+		  </tfoot>
+		  <tbody>
+		         <tr>
+				     <td>Paris to Lyon</td>
+					 <td>467km</td>
+					 <td colspan="2">Maurice Garin</td>
+				 </tr>
+				 <tr>
+				     <td>Lyon to Marseille</td>
+					 <td>374km</td>
+					 <td rowspan="2">Hippolyte Aucouturier</td>
+					 <td rowspan="2">Maurice Garin</td>
+				 </tr>
+				 <tr>
+				     <td>Marseille to Toulouse</td>
+					 <td>423km</td>
+				 </tr>
+		  </tbody>
+	  </table>
+</body>
+</html>
